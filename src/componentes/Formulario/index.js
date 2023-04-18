@@ -6,9 +6,9 @@ import './formulario.css'
 
 const Formulario = ({aoCadastrar, times}) => {
 
-    const [nome, setNome] = useState('')
-    const [cargo, setCargo] = useState('')
-    const [imagem, setImagem] = useState('')
+    const [nome, setNome] = useState('Alexandre Halas')
+    const [cargo, setCargo] = useState('Desenvolvedor')
+    const [imagem, setImagem] = useState('https://avatars.githubusercontent.com/u/24446048?v=4')
     const [time, setTime] = useState('')
 
     const aoSubmeter = (evento) => {
